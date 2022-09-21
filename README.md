@@ -18,9 +18,9 @@ To find bigrams in a corpus of text, use the `(findbigrams)` function:
 
 This returns a raw list of bigrams:
 
-(("Lorem" "Ipsum") ("Ipsum" "is") ("is" "commonly") ("commonly" "used")
- ("used" "for") ("for" "example") ("example" "text.") ("text." "Lorem")
- ("Lorem" "Ipsum") ("Ipsum" "is") ("is" "cool") ("cool" NIL))
+    (("Lorem" "Ipsum") ("Ipsum" "is") ("is" "commonly") ("commonly" "used")
+    ("used" "for") ("for" "example") ("example" "text.") ("text." "Lorem")
+    ("Lorem" "Ipsum") ("Ipsum" "is") ("is" "cool") ("cool" NIL))
 
 Bigrams are identified with a space delimiter. The last word in a corpus of text will be paired with NIL.
 
